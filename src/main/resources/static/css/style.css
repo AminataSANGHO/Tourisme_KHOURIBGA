@@ -65,13 +65,16 @@ body {
 }
 
 .general{
-	background-color: #3c6e71; /*#F3F3F3*/
+	background-color: #336e65; /*#F3F3F3 3c6e71*/
 }
 
 .resto{
-	background-color: #800e70; /* f4f3ee #F3F3F3*/
+	background-color: #f4f3ee ; /*#F3F3F3*/
 }
 
+.banque{
+	background-color: #7b7554;
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
