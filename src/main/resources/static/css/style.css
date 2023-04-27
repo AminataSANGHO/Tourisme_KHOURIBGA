@@ -61,7 +61,15 @@ body {
   line-height: 1.5;
   color: #656565;
   text-align: left;
-  background-color: #3c6e71; /*#F3F3F3*/
+  /*background-color: #3c6e71; #F3F3F3*/
+}
+
+.general{
+	background-color: #3c6e71; /*#F3F3F3*/
+}
+
+.resto{
+	background-color: #800e70; /* f4f3ee #F3F3F3*/
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -467,6 +475,7 @@ h6, .h6 {
     font-size: calc(1.475rem + 2.7vw) ;
   }
 }
+
 
 hr {
   margin-top: 1rem;
@@ -9773,4 +9782,10 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+
+.text-tourisme:hover{
+	transform: scale(1.1, 1.1);
+	
 }
