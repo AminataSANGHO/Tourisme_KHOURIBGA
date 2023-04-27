@@ -71,10 +71,24 @@ body {
 .resto{
 	background-color: #f4f3ee ; /*#F3F3F3*/
 }
-
+.hopital{
+	background-color: #eeeeef; /*#F3F3F3 3c6e71*/
+}
 .banque{
 	background-color: #7b7554;
 }
+
+.monfondu{	
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.monfondu:hover{	
+  opacity: 0.7;
+  
+}
+
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
