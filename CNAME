@@ -1,0 +1,2 @@
+$ dig AminataTourisme_Khouribga.com +nostats +nocomments +nocmd
+    > AminataTourisme_Khouribga.com            3592    IN      CNAME AminataTourisme_Khouribga.com
